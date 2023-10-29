@@ -1,0 +1,53 @@
+#mysearchbar {
+    border: 1px solid #dfe1e5;
+    outline: none;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 20px;
+    display: flex;
+    margin-top: 1%;
+    align-items: center;
+    height: 40px;
+    width: 700px;
+    border-radius: 24px;
+    box-shadow: 200px;
+}
+
+#mysearchbar:hover {
+
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: rgba(223, 225, 229, 0)
+}
+
+.submit {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 4%;
+    border: none;
+    justify-content: center;
+}
+
+
+.submit>input {
+    background-color: #f8f9fa;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    border-radius: 4px;
+    padding: 2px 16px;
+}
+
+
+
+.submit>input:hover {
+    box-shadow: 1px 1px 8px #bababa;
+
+}
+
+#google_logo {
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
